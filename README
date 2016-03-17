@@ -1,0 +1,22 @@
+This project is implemented for the use of Hibernate as a JPA and Spring Framework
+during database applications for the purpose of add, modify, delete and search data.
+
+There are three objects in here: Employee, Department and Meetings.
+
+To run this maven project, all all dependencies must be properly installed, 
+such as Maven, jdk and jre an the step below should to be followed.
+
+1. install the project from the given link.
+2. unzip the file, then make sure you have you this "<jdk.version>1.7</jdk.version>" 
+    without quote in your properties if you don't have jdk installed.
+    
+3. Then change the properties of jdbc.properties based on whatever system you use as database.
+	jdbc can be found in this path ~/src/webapp/WEB-IN
+4. Then create a new application on maven built by right click the project then going run configurations.
+	put the project directory to the base directory section and tomcat:run to goals and run the project.
+	
+5. go to http://localhost:8080/<projectname>/index to see in web.
+
+Have fun
+Note: database table must be created as all attributes in one table,EDM,before all.
+ 
